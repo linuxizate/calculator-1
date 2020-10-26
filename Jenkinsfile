@@ -90,7 +90,7 @@ pipeline {
 
     stage("Smoke test") {
       steps {
-	sh "./smoke_test.sh 192.168.0.115"
+	sh "./smoke_test.sh 192.168.1.115"
       }
     }
   }
